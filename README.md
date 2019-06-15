@@ -21,9 +21,13 @@ To evaluate a trained model, make sure to set the appropriate folder of the trai
 ### Visualizing a Trained Model
 By running `visualize_trained.py`, you can save image results on disk, as shown in Figure 6 of the paper. If you want to save segmentation results, run the file `visualize_trained_seg.py`.
 ## Dataset
-As descriped in the paper, we use images and their labels from City-OSM dataset from this paper: P. Kaiser, J. D. Wegner, A. Lucchi, M. Jaggi, T. Hofmann, and K. Schindler. Learning aerial image segmentation from online maps. IEEE Transactions on Geoscience and Remote Sensing. You can access their full dataset here: [City-OSM Dataset](https://zenodo.org/record/1154821). Note that we have only presented results by training on images from Berlin and using Potsdam as the test set. As mentioned in their paper, segmentation labels are collected from OSM which may have noise.
+As descriped in the paper, we use images and their labels from City-OSM dataset from this paper:
 
-To generate clouds, we have used real cloud images. We have used 30 cloud images for training and a different 10 images for testing.
+P. Kaiser, J. D. Wegner, A. Lucchi, M. Jaggi, T. Hofmann, and K. Schindler. Learning aerial image segmentation from online maps. IEEE Transactions on Geoscience and Remote Sensing.
+
+You can access their full dataset here: [City-OSM Dataset](https://zenodo.org/record/1154821). Note that we have only presented results by training on images from Berlin and using Potsdam as the test set. As mentioned in their paper, segmentation labels are collected from OSM which may have noise.
+
+To generate partially cloudy images, we have used real cloud images and imposed them on images using Perlin noise as alpha masks. We have used 30 cloud images for training and 10 different cloud images for testing.
 
 ### Request Dataset
 If you want to replicate our results, without re-collecting data, please [contact us](http://cs.uky.edu/~jacobs/). We can provide the full dataset, as used in our evaluations, in a single zip file.
