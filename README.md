@@ -16,7 +16,7 @@ To train the baseline method, run the file`train_baseline.py` with same dataset 
 If you want to train only the segmentation network, as an upper limit, on clean data, run the file `train_clean_data.py`. This requires dataset to be set to clean images, you can do this by setting `cfg.data.name = 'berlin4x4'`. Again, in the `config.py`, all these options are explained through comments.
 
 ### Evaluating a Trained Model
-To evaluate a trained model, make sure to set the appropriate folder of the trained model (`cfg.train.out_dir`). To evaluate a trained system, run the file `eval_trained.py`. If a trained model cannot be found, error message will indiacte this before exiting.
+To evaluate a trained model, make sure to set the appropriate folder of the trained model (`cfg.train.out_dir`). To evaluate a trained system, run the file `eval_trained.py`. If a trained model cannot be found, error message will indicate this before exiting.
 
 ### Visualizing a Trained Model
 By running `visualize_trained.py`, you can save image results on disk, as shown in Figure 6 of the paper. If you want to save segmentation results, run the file `visualize_trained_seg.py`.
@@ -26,7 +26,7 @@ As descriped in the paper, we use images and their labels from City-OSM dataset 
 To generate clouds, we have used real cloud images. We have used 30 cloud images for training and a different 10 images for testing.
 
 ### Request Dataset
-If you want to replicate our results, without re-collecting data, please [contact us](http://cs.uky.edu/~jacobs/). We can provide full dataset, as used in our evaluations, in a single zip file.
+If you want to replicate our results, without re-collecting data, please [contact us](http://cs.uky.edu/~jacobs/). We can provide the full dataset, as used in our evaluations, in a single zip file.
 
 ## People
 Please feel free to contact us for any question or comment.
