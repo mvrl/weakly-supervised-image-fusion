@@ -30,7 +30,7 @@ You can access their full dataset here: [City-OSM Dataset](https://zenodo.org/re
 To generate partially cloudy images, we have used real cloud images and imposed them on images using Perlin noise as alpha masks. We have used 30 cloud images for training and 10 different cloud images for testing.
 
 ### Request Dataset
-If you want to replicate our results, without re-collecting data, please send an email to usman dot rafique AT uky do EDU. We can provide the full dataset, as used in our evaluations, in a single zip file.
+If you want to replicate our results, without re-collecting data, please send an email to usman dot rafique AT uky dot EDU. We can provide the full dataset, as used in our evaluations, in a single zip file.
 
 ## People
 Please feel free to contact us for any question or comment.
