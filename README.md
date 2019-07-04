@@ -40,3 +40,6 @@ Please feel free to contact us for any question or comment.
 Hunter Blanton
 
 [Nathan Jacobs](http://cs.uky.edu/~jacobs/ "Nathan's website")
+
+## Permission
+The code is provided for academic purposes only without any guarantees. 
